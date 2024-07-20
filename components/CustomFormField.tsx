@@ -104,7 +104,7 @@ const RenderField = ({ field, props }: { field: any; props: CustomProps }) => {
               onChange={(date) => field.onChange(date)}
               dateFormat={props?.dateFormat ?? "MM/dd/yyyy"}
               showTimeSelect={showTimeSelect ?? false}
-              timeInputLabel="Time"
+              timeInputLabel="Time:"
               wrapperClassName="date-picker"
             />
           </FormControl>
